@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- alarm clock icon, same artwork as alarm_server/static/icons/icon.svg -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+  <group android:scaleX="0.17" android:scaleY="0.17" android:translateX="10.48" android:translateY="11.16">
+   <group android:translateX="256" android:translateY="270">
+    <group android:translateX="-6" android:translateY="-6"><path android:fillColor="#FFFFFF" android:pathData="M-150,-78 A78,78 0 0,1 -78,-150 Z"/></group>
+    <group android:translateX="6" android:translateY="-6"><path android:fillColor="#FFFFFF" android:pathData="M150,-78 A78,78 0 0,0 78,-150 Z"/></group>
+    <path android:fillColor="#FFFFFF" android:pathData="M-9,-176 L9,-176 L9,-142 L-9,-142 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M-34,-186 L34,-186 L34,-166 L-34,-166 Z"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="26" android:strokeLineCap="round" android:pathData="M-88,104 L-122,150 M88,104 L122,150"/>
+
+    <path android:fillColor="#FFFFFF" android:pathData="M-132,0 A132,132 0 1,0 132,0 A132,132 0 1,0 -132,0 Z"/>
+    <path android:fillColor="#173F94" android:pathData="M-106,0 A106,106 0 1,0 106,0 A106,106 0 1,0 -106,0 Z"/>
+
+    <path android:fillColor="#FFFFFF" android:pathData="M-6,-94 L6,-94 L6,-74 L-6,-74 Z M-6,74 L6,74 L6,94 L-6,94 Z M74,-6 L94,-6 L94,6 L74,6 Z M-94,-6 L-74,-6 L-74,6 L-94,6 Z"/>
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="18" android:strokeLineCap="round" android:pathData="M0,0 L-44,-40"/>
+    <path android:strokeColor="#FFD34D" android:strokeWidth="12" android:strokeLineCap="round" android:pathData="M0,0 L50,-62"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M-14,0 A14,14 0 1,0 14,0 A14,14 0 1,0 -14,0 Z"/>
+
+   </group>
+  </group>
+</vector>

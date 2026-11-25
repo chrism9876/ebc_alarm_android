@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The alarm server usually lives on the home network:
+  - plain http://192.168.x.x:8080 is allowed
+  - https with your own certificate authority (e.g. https://alarm.home behind a reverse proxy) works when
+    that CA certificate is installed on the phone (Settings > Security > Install certificate > CA certificate).
+    Android apps ignore user-installed CAs unless they opt in, as this file does.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

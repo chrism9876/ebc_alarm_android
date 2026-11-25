@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.EbcAlarm" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+
+    <style name="Theme.EbcAlarm.Ringing" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ring_bg</item>
+    </style>
+</resources>
